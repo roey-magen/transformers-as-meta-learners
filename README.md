@@ -48,7 +48,7 @@ All tests should pass (you may get a few warnings about package deprecations).
 
 2. Train models across different dimensions and batch sizes:
 ```bash
-python classification_icl.py
+python classification_icl_subspace.py
 ```
 This will save model checkpoints to the `checkpoints/` directory.
 
@@ -62,7 +62,7 @@ This will create the performance curves shown above in the `plots/` directory.
 
 The codebase consists of three main components:
 
-- `classification_icl.py`: Main implementation including:
+- `classification_icl_subspace.py`: Main implementation including:
   - `GaussianMixtureDataset`: Generates synthetic classification data
   - `LinearTransformer`: Single-layer linear transformer model
   - `Trainer`: Handles training loop and metrics tracking
@@ -96,3 +96,8 @@ If you use find this helpful:
   year={2025}
 }
 ```
+
+## Acknowledgments
+
+This code is partially based on the implementation from Frei and Vardi (2024): 
+*Trained transformer classifiers generalize and exhibit benign overfitting in-context*.
