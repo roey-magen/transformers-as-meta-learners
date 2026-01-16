@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated outputs / artifacts
+checkpoints/
+latest_plots/
+results_*/
+*.pt
+
+# Experiment logs (if used)
+wandb/
+
+# Ignore all generated plots by default
+plots/**
+
+# But keep the plots referenced in README.md
+!plots/
+!plots/compare_lt_mle_svm_k30/
+!plots/compare_lt_mle_svm_k30/lt_vs_mle_vs_svm_d500_k30_R2.png
+!plots/compare_lt_mle_svm_k30/lt_vs_mle_vs_svm_d500_k30_R3.png
+
+!plots/subspace_by_k/
+!plots/subspace_by_k/subspace_k_vs_seq_R5_Rtest5.png
+!plots/subspace_by_k/subspace_k_vs_seq_R7_Rtest7.png
+!plots/subspace_by_k/subspace_k_vs_seq_R9_Rtest9.png
