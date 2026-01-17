@@ -1,6 +1,6 @@
 # Transformers are almost optimal metalearners
 
-This repository implements the experiments from "Transformers are almost optimal metalearners for linear classification" (Magen & Vardi, Neurips, 2025). The paper analyzes how linear transformers trained on random linear classification tasks can learn from context and act as almost optimal metalearner, by extract shared representations across diverse but related tasks.
+This repository implements the experiments from "Transformers are almost optimal metalearners for linear classification" (Magen & Vardi, Neurips, 2025). The paper analyzes how linear transformers trained on random linear classification tasks can learn from context and act as almost optimal metalearners, by extracting shared representations across diverse but related tasks.
 
 ## Results
 
